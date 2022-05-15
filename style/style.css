@@ -1,0 +1,71 @@
+.main {
+    width: 960px;
+    height: 1250px;
+    margin: auto;
+    background-color: white;
+}
+.footer {
+    width: 960px;
+    height: 250px;
+    background-color: #232222;
+}
+.top {
+    width: 960px;
+    height: 60px;
+    background-color: gold;
+}
+.header {
+    width: 960px;
+    height: 200px;
+    background-color: #265dae;
+    margin: auto;
+}
+.content {
+    width: 800px;
+    height: 960px;
+}
+.headerimg {
+    width: 130px;
+    height: 140px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.mt1 {
+    margin-left: 250px;
+}
+.gil {
+    font-size: 10mm;
+}
+._top{
+    text-decoration: none;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Square Peg', cursive;
+    font-size: 10mm;
+    color: white;
+}
+._top:hover {
+    color: black;
+    text-decoration: underline;
+}
+.fot {
+    display: flex;
+    justify-content: center;
+}
+._fot {
+    color: whitesmoke;
+    padding-top: 0px;
+}
+.inf {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inf_ {
+    padding-top: 100px;
+    padding-left: 10px;
+}
+.inf:hover {
+    color: black;
+    text-decoration: underline;
+}
