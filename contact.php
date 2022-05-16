@@ -8,11 +8,11 @@
     require_once "block/header.php";
 ?>
 <div class="main_c">
+    <h1 class="m">Напиши нами</h1>
+
     <div class="block_c">
-        <h1 class="mt-0">Напиши нами</h1>
-
+        <img src="style/gerb-ukr.jpg">
         <div class="text-success"><?=$_SESSION['success_mail']?></div>
-
         <form action="check_contact.php" method="post">
             <input type="text" name="username" value="<?=$_SESSION['user_name']?>"  placeholder="Ведіть ім'я" class="from-control">
             <div class="text-danger"><?=$_SESSION['error_username']?></div><br>
@@ -24,7 +24,7 @@
             <div class="text-danger"><?=$_SESSION['error_message']?></div><br>
             <button type="submit" class="btn btn-success">Відправити повідомлення</button>
         </form>
-
+        <img src="style/gerb-ukr.jpg">
     </div>
 </div>
 <?php

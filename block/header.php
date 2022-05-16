@@ -8,11 +8,23 @@
     <title><?php echo $title; ?></title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
 </head>
 <body>
 <div class="main">
     <div class="header">
+        <div class="logo">
         <img class="headerimg" src="style/360_F_435743102_T53hHHStQipqs9w2XOIKI1cArHIwE3XX.jpg">
+        </div>
+        <div class="nazva">
+            <div class="nazva1">
+                <h1>Меленький сайт Українських новин</h1>
+            </div>
+        </div>
+
     </div>
     <div class="top">
         <div class="mt1">

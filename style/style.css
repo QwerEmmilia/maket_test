@@ -15,6 +15,7 @@
     background-color: gold;
 }
 .header {
+    display: flex;
     width: 960px;
     height: 200px;
     background-color: #265dae;
@@ -37,8 +38,6 @@
 }
 ._top{
     text-decoration: none;
-    font-family: 'Akshar', sans-serif;
-    font-family: 'Square Peg', cursive;
     font-size: 10mm;
     color: white;
 }
@@ -69,11 +68,32 @@
     text-decoration: underline;
 }
 .block_c {
+    display: flex;
     width: 300px;
     height: 400px;
-    margin-left: 380px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-left: 70px;
 }
 .main_c {
+}
+.m {
+    display: flex;
+    justify-content: center;
+}
+.blocksss {
+    height: 290px;
+    width: 234px;
+}
+.blockss {}
+.logo {
+    width: 230px;
+    height: 250px;
+}
+.nazva {
+    width: 730px;
+    height: 250px;
+}
+.nazva1 {
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 70px;
+    color: gold;
 }
